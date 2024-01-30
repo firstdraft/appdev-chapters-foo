@@ -35,4 +35,4 @@ Gitpod.io is a great new service that provides instantaneous, full-fledged cloud
 
     You will then create a Gitpod workspace[^workspace] based on _your_ fork, so that you can save the work that you do back to your own GitHub account. A button to create your Gitpod workspace will appear within the assignment, so usually all you need to do is click on it after clicking "Load assignment in a new window". And then you can get right to work, with the exact right version of all of the project's dependencies ready to go!
 
-[^workspace]: Gitpod will delete an inactive workspace after **14 days**. If you want to save the changes you've made for longer, you can "pin" a workspace in Gitpod which will prevent it from being deleted. Even better, you can [push your changes to Github](https://chapters.firstdraft.com/chapters/839#push-to-github).
+[^workspace]: Gitpod will delete an inactive workspace after **14 days**. If you want to save the changes you've made for longer, you can "pin" a workspace in Gitpod which will prevent it from being deleted. Even better, you can [push your changes to Github](https://chapters-foo.ourplatform.com/chapters/839#push-to-github).

@@ -4,7 +4,7 @@ Now that we've leveled up our applications' code, let's level up our deployment 
 
 ## Heroku Pipelines
 
-We're still going to deploy to Heroku, but in a more robust way than we [first learned how to](https://chapters.firstdraft.com/chapters/775).
+We're still going to deploy to Heroku, but in a more robust way than we [first learned how to](https://chapters-foo.ourplatform.com/chapters/775).
 
 This time, we're going to take advantage of [Heroku Pipelines](https://devcenter.heroku.com/articles/pipelines){:target="_blank"} to easily manage _multiple_ deployment targets.
 
@@ -246,7 +246,7 @@ In the pane that opens, check off "Create new review apps for new pull requests 
 
 ![](/assets/continuous-delivery-6-configure-review.png)
 
-If your application [requires any environment variables](https://chapters.firstdraft.com/chapters/792), click the "Reveal Config Vars" button and add them.
+If your application [requires any environment variables](https://chapters-foo.ourplatform.com/chapters/792), click the "Reveal Config Vars" button and add them.
 
 Now, try the following:
 

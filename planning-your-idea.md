@@ -2,7 +2,7 @@
 
 The aim of this exercise is to plan out an idea to build so that we can start to domain model, i.e., plan out our tables and columns.
 
-If you think you're already ready to do that, then you can skip to the next article, [Diagramming Your Domain Model](https://chapters.firstdraft.com/chapters/782). Otherwise, read on.
+If you think you're already ready to do that, then you can skip to the next article, [Diagramming Your Domain Model](https://chapters-foo.ourplatform.com/chapters/782). Otherwise, read on.
 
 ## Coming up with an idea
 
@@ -59,7 +59,7 @@ Then, crucially, ask yourself: **what is the absolute minimum featureset I can g
 
 Move **only the essential stories** to the 1st draft column.
 
-Now that we've planned out what we want to build, it's time to [diagram an Idea in firstdraft](https://chapters.firstdraft.com/chapters/782).
+Now that we've planned out what we want to build, it's time to [diagram an Idea in firstdraft](https://chapters-foo.ourplatform.com/chapters/782).
 
 
 [^1]: Here's a directory of [Public APIs](https://public-apis.io/){:target="_blank"}.

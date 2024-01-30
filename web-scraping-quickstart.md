@@ -10,10 +10,10 @@ You can follow along in the `rails console`.
 
 ### Step 1
 
-Choose a URL with the data you want on it. For this example, let’s pick `chapters.firstdraft.com`.
+Choose a URL with the data you want on it. For this example, let’s pick `chapters-foo.ourplatform.com`.
 
 ```ruby
-url = "https://chapters.firstdraft.com/chapters/753"
+url = "https://chapters-foo.ourplatform.com/chapters/753"
 ```
     
 ### Step 2

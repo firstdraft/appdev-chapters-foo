@@ -143,7 +143,7 @@ Let's add our images, copy, and links. I wrapped each block of content in a `<di
 <!-- Etc, for as many links as you want -->
 ```
 
-Of course, I also have [the standard HTML boilerplate](https://chapters.firstdraft.com/chapters/771#housekeeping){:target="_blank"} (`<html>`, `<head>`, `<body`, etc) in order to make it a valid document.
+Of course, I also have [the standard HTML boilerplate](https://chapters-foo.ourplatform.com/chapters/771#housekeeping){:target="_blank"} (`<html>`, `<head>`, `<body`, etc) in order to make it a valid document.
 
 Two things to notice:
 

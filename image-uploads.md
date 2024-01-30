@@ -156,7 +156,7 @@ clicking the Security tab.
 
 For security, it's best to store your keys in environment variables. Read more
 on the how and why this is important in the guide on [storing your credientials
-securely](https://chapters.firstdraft.com/chapters/792){:target="_blank"}.
+securely](https://chapters-foo.ourplatform.com/chapters/792){:target="_blank"}.
 
 After pushing to Heroku, you'll need to [manually add these environment
 variables (Heroku calls them "Config Vars") in the Settings tab of your

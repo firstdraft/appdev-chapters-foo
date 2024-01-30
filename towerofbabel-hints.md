@@ -12,8 +12,8 @@ My ERD ended up looking like the below.
 
 ## Steps for setting up the CRUD infrastructure
 
- 1. Generate [user accounts](https://chapters.firstdraft.com/chapters/773#a-special-sort-of-table-user-accounts){:target="_blank"}.
- 2. Generate [chat resources](https://chapters.firstdraft.com/chapters/773#generating-a-resource){:target="_blank"}.
+ 1. Generate [user accounts](https://chapters-foo.ourplatform.com/chapters/773#a-special-sort-of-table-user-accounts){:target="_blank"}.
+ 2. Generate [chat resources](https://chapters-foo.ourplatform.com/chapters/773#generating-a-resource){:target="_blank"}.
  3. Force users to sign in before they can do anything else.
  4. Modify the generated chat resource code to automatically associate a chat with the signed in user.
  5. Use the `Language` seed data to create a dropdown in the new chat form.

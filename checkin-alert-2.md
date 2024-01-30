@@ -47,7 +47,7 @@
  - Display "Alert sent" if `message_sent` is `true` before the copy, otherwise display "Alert not yet sent".
  - Instead of showing all of the user's flights, show only upcoming flights. Review your advanced `.where` techniques:
 
-    [https://chapters.firstdraft.com/chapters/770#less-than-or-greater-than](https://chapters.firstdraft.com/chapters/770#less-than-or-greater-than){:target="_blank"}
+    [https://chapters-foo.ourplatform.com/chapters/770#less-than-or-greater-than](https://chapters-foo.ourplatform.com/chapters/770#less-than-or-greater-than){:target="_blank"}
  - Add a past flights section.
 
 ### Custom rake tasks
@@ -70,10 +70,10 @@ Write some Ruby within the task that:
  - Finds flights where messages have not yet been sent. Print how many there are.
  - Finds flights that depart within the next 24 hours and 15 minutes. Print how many there are. Review your advanced `.where` techniques:
 
-    [https://chapters.firstdraft.com/chapters/770#less-than-or-greater-than](https://chapters.firstdraft.com/chapters/770#less-than-or-greater-than){:target="_blank"}
+    [https://chapters-foo.ourplatform.com/chapters/770#less-than-or-greater-than](https://chapters-foo.ourplatform.com/chapters/770#less-than-or-greater-than){:target="_blank"}
  - Finds flights where messages have not yet been sent AND depart within the next 24 hours and 15 minutes. Print how many there are. Review how to chain `.where`s together:
 
-    [https://chapters.firstdraft.com/chapters/770#chaining-wheres](https://chapters.firstdraft.com/chapters/770#chaining-wheres)
+    [https://chapters-foo.ourplatform.com/chapters/770#chaining-wheres](https://chapters-foo.ourplatform.com/chapters/770#chaining-wheres)
 
 Now that we have the correct set of flights, the ones that we need to send reminders for, 
 

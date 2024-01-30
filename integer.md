@@ -93,7 +93,7 @@ lucky_number = rand(100)
 p "Your lucky number is" + lucky_number
 ```
 
-Uh oh! [RTEM!](https://chapters.firstdraft.com/chapters/754#seriously-please-read-the-error-message){:target="_blank"}
+Uh oh! [RTEM!](https://chapters-foo.ourplatform.com/chapters/754#seriously-please-read-the-error-message){:target="_blank"}
 
 It turns out that `String`'s `+` method can only add two strings together, not a string and an object of some other class. So, a lot of times we'll need to convert an `Integer` into a `String` prior to output. Fortunately `Integer` has a handy method, `to_s` (or "to string"), that does just that:
 
@@ -109,4 +109,4 @@ Similarly, there's a `to_f` (or "to float") method to convert an `Integer` to a 
 
 ## Conclusion
 
-That's it for `Integer`. Next up, [it's close cousin: `Float`](https://chapters.firstdraft.com/chapters/759).
+That's it for `Integer`. Next up, [it's close cousin: `Float`](https://chapters-foo.ourplatform.com/chapters/759).

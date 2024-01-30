@@ -18,15 +18,15 @@ _All tables will automatically get the usual `id`, `created_at`, and `updated_at
 
 If you add these columns _exactly_, then you can run the `rails sample_data` Rake task to add example data to your database tables like with the homeworks.
 
-You can use the `model` generator to add your tables, or you can use [the `draft:resource`](https://chapters.firstdraft.com/chapters/773) to add the tables _and_ give yourself a big head start on routes, controllers, actions, and view templates.
+You can use the `model` generator to add your tables, or you can use [the `draft:resource`](https://chapters-foo.ourplatform.com/chapters/773) to add the tables _and_ give yourself a big head start on routes, controllers, actions, and view templates.
 
 You can use [firstdraft](http://firstdraft.com/)'s Co-Pilot to help write the commands to generate the tables and avoid typos.
 
-You should also consider adding [association accessor methods](https://association-accessors.firstdraft.com/) to your models to make your job easier. [Validations to protect data integrity](https://chapters.firstdraft.com/chapters/845) are helpful as well.
+You should also consider adding [association accessor methods](https://association-accessors.firstdraft.com/) to your models to make your job easier. [Validations to protect data integrity](https://chapters-foo.ourplatform.com/chapters/845) are helpful as well.
 
 ### Important notes on generating:
 
- - Remember that if you use [the `draft:account` generator](https://chapters.firstdraft.com/chapters/888) for user accounts, you do not need to specify `email` and `password_digest` columns; they are automatically added, like `id`, `created_at`, and `updated_at`. I.e.:
+ - Remember that if you use [the `draft:account` generator](https://chapters-foo.ourplatform.com/chapters/888) for user accounts, you do not need to specify `email` and `password_digest` columns; they are automatically added, like `id`, `created_at`, and `updated_at`. I.e.:
 
     ```
     # Don't do this
@@ -48,7 +48,7 @@ You should also consider adding [association accessor methods](https://associati
 
 ### Image Uploads
 
-In the target, users add images by uploading files instead of entering image URLs into a text field. **Until you setup real image uploads in your project, all image related tests will fail.** Please see the chapter on [images uploads](https://chapters.firstdraft.com/chapters/790) for more information.
+In the target, users add images by uploading files instead of entering image URLs into a text field. **Until you setup real image uploads in your project, all image related tests will fail.** Please see the chapter on [images uploads](https://chapters-foo.ourplatform.com/chapters/790) for more information.
 
 ### Follow Requests
 

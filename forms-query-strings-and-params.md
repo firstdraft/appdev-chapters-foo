@@ -26,7 +26,7 @@ Forms generally capture user input using `<input>`[^Input] elements. Each `<inpu
 </form>
 ```
 
-[^Input]: `<input>` elements are one of [the few HTML elements](https://chapters.firstdraft.com/chapters/879#exceptions) that don't require a closing tag.
+[^Input]: `<input>` elements are one of [the few HTML elements](https://chapters-foo.ourplatform.com/chapters/879#exceptions) that don't require a closing tag.
 
 A `<button>` element is required to submit the form.
 

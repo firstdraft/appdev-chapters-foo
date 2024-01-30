@@ -35,7 +35,7 @@ Now, one last thing: try visiting the target in a different browser, or from a d
 
 ## Cookies are sent back to the server with every subsequent request
 
-So, when you click submit on any of the forms, you can see that the target, in addition to doing the calculation, also stores a cookie in your browser. We'll practice how to do this shortly — it's not really anything new; we [add a key/value pair](https://chapters.firstdraft.com/chapters/767#creating-hashes){:target="_blank"} to a `Hash` that Rails provides called `cookies`.
+So, when you click submit on any of the forms, you can see that the target, in addition to doing the calculation, also stores a cookie in your browser. We'll practice how to do this shortly — it's not really anything new; we [add a key/value pair](https://chapters-foo.ourplatform.com/chapters/767#creating-hashes){:target="_blank"} to a `Hash` that Rails provides called `cookies`.
 
 The key thing to wrap our heads around is: the user's browser sends back the entire `cookies` hash with _every subsequent request the user makes_. In other words, after we add a key/value pair to `cookies` for a particular user, every time that user visits us again, we'll see that key/value pair in the `cookies` hash (unless they clear their cookies).
 
@@ -73,7 +73,7 @@ h.store(:color, "pink")
 h.fetch(:color) # => "pink"
 ```
 
-For more of a refresher, you might want to refresh your memory by [playing around with the REPLs in the Hash Chapter](https://chapters.firstdraft.com/chapters/767#creating-hashes){:target="_blank"}.
+For more of a refresher, you might want to refresh your memory by [playing around with the REPLs in the Hash Chapter](https://chapters-foo.ourplatform.com/chapters/767#creating-hashes){:target="_blank"}.
 
 ### The cookies hash
 

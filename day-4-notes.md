@@ -4,7 +4,7 @@
 
  - Read about Gitpod and create a workspace based on the `appdev-projects/hello.rb` repository as described within:
 
-    [https://chapters.firstdraft.com/chapters/785](https://chapters.firstdraft.com/chapters/785){:target="_blank"}
+    [https://chapters-foo.ourplatform.com/chapters/785](https://chapters-foo.ourplatform.com/chapters/785){:target="_blank"}
 
  - In your new workspace, create a file called `rock.rb` and write some Ruby in it; for example,
     
@@ -106,7 +106,7 @@ parsed_data = JSON.parse(raw_data)
 p parsed_data.class # => Much better!
 ```
 
-Now it's just [hashes](https://chapters.firstdraft.com/chapters/767) and [arrays](https://chapters.firstdraft.com/chapters/758) all the way down. You can use `.fetch`, `.at`, and [.each](https://chapters.firstdraft.com/chapters/765) if you need to! You're off to the races.
+Now it's just [hashes](https://chapters-foo.ourplatform.com/chapters/767) and [arrays](https://chapters-foo.ourplatform.com/chapters/758) all the way down. You can use `.fetch`, `.at`, and [.each](https://chapters-foo.ourplatform.com/chapters/765) if you need to! You're off to the races.
 
 ### Challenge
 

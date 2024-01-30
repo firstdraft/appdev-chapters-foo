@@ -110,7 +110,7 @@ bool = [true, false]
  end
 ```
 
-Now we are getting somewhere! By using `names.at(count)` within our [loop](https://chapters.firstdraft.com/chapters/764), we will be able to access a different name from our `names` array and assign it to our `username` column. For the user's `private` column, we can call the `.sample` on our `bool` array; This will set a user's `private` column to either `true` or `false`.
+Now we are getting somewhere! By using `names.at(count)` within our [loop](https://chapters-foo.ourplatform.com/chapters/764), we will be able to access a different name from our `names` array and assign it to our `username` column. For the user's `private` column, we can call the `.sample` on our `bool` array; This will set a user's `private` column to either `true` or `false`.
 
 #### An aside: Passwords
 What happens if you need to add a password? If you were to run the firstdraft `draft:account` for `User` the generator would add the column of `password_digest` to the schema.  Once this is added you would think you would want to add call `.password`[^1] column to the `user`. The code will look like this.
@@ -180,7 +180,7 @@ A few things to consider:
  - Do we want a `User` to be able to create a `FollowRequest` for themselves?
  - If the sender and receiver are random, what will happen if duplicate records are created? Should we allow them?
 
-If any of these points created a concern, it might be a good time to add in some [validations](https://chapters.firstdraft.com/chapters/845) to make sure we are only allowing data into our database that we want to be there.  With validations, we can define rules for which data is allowed to enter our database.
+If any of these points created a concern, it might be a good time to add in some [validations](https://chapters-foo.ourplatform.com/chapters/845) to make sure we are only allowing data into our database that we want to be there.  With validations, we can define rules for which data is allowed to enter our database.
 
 ### Adding the remainder of the data
 

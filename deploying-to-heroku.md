@@ -74,7 +74,7 @@ heroku stack:set heroku-20
 
 ### Set environment variables
 
-If you need to set any environment variables on Heroku to mirror [the ones you have locally](https://chapters.firstdraft.com/chapters/792) (to e.g. store credentials securely), you can do it in [the application's settings in your Heroku dashboard](https://devcenter.heroku.com/articles/config-vars#using-the-heroku-dashboard){:target="_blank"}. (Heroku refers to environment variables as "Config Vars".)
+If you need to set any environment variables on Heroku to mirror [the ones you have locally](https://chapters-foo.ourplatform.com/chapters/792) (to e.g. store credentials securely), you can do it in [the application's settings in your Heroku dashboard](https://devcenter.heroku.com/articles/config-vars#using-the-heroku-dashboard){:target="_blank"}. (Heroku refers to environment variables as "Config Vars".)
 
 ### Optional: set a custom domain
 

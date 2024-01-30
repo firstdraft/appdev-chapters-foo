@@ -22,7 +22,7 @@ Please let us know if you find errors, omissions, or have any other suggestions 
 
 ### All Array methods
 
-`ActiveRecord_Relation`s [inherit](https://chapters.firstdraft.com/chapters/769#inheritance) from `Array`, so all `Array` methods work:
+`ActiveRecord_Relation`s [inherit](https://chapters-foo.ourplatform.com/chapters/769#inheritance) from `Array`, so all `Array` methods work:
 
 - [`.each`](#looping-through-arrays)
 - [`.at()` (and its aliases `[]`, `.first` for `.at(0)`, `.last` for `.at(-1)`)](#at)
@@ -85,7 +85,7 @@ Call `.where` on an `ActiveRecord_Relation` to filter the array of records based
 
 Related Methods: `.where.not`, `.or`, `.limit`, `.order`
 
-[Full explanation](https://chapters.firstdraft.com/chapters/770#where)
+[Full explanation](https://chapters-foo.ourplatform.com/chapters/770#where)
 
 ### where.not
 
@@ -102,7 +102,7 @@ Contact.where({ :last_name => "Mouse" }).where.not({ :first_name => "Mickey" })
 
 Related methods: `.where`, `.order`, `.limit`
 
-[Full explanation](https://chapters.firstdraft.com/chapters/770#wherenotthis)
+[Full explanation](https://chapters-foo.ourplatform.com/chapters/770#wherenotthis)
 
 ### .or
 
@@ -118,7 +118,7 @@ Call `.or` on an `ActiveRecord_Relation` to _combine_ the array of records with 
 Contact.where({ :first_name => "Mickey" }).or(Contact.where({ :last_name => "Betina" }))
 ```
 
-[Full explanation](https://chapters.firstdraft.com/chapters/770#wherethisorthat)
+[Full explanation](https://chapters-foo.ourplatform.com/chapters/770#wherethisorthat)
 
 ### .order
 
@@ -149,7 +149,7 @@ Contact.all.order(:last_name)
 
 In that case, `:asc` order is assumed.
 
-[Full explanation](https://chapters.firstdraft.com/chapters/770#order)
+[Full explanation](https://chapters-foo.ourplatform.com/chapters/770#order)
 
 ### .limit
 
@@ -164,7 +164,7 @@ Call `.limit` on an `ActiveRecord_Relation` to cap the number of records in the 
 Contact.where({ :last_name => "Mouse" }).limit(10)
 ```
 
-[Full explanation](https://chapters.firstdraft.com/chapters/770#limit)
+[Full explanation](https://chapters-foo.ourplatform.com/chapters/770#limit)
 
 ### .offset
 
@@ -179,7 +179,7 @@ Call `.offset` on an `ActiveRecord_Relation` to discard the first few records in
 Contact.where({ :last_name => "Mouse" }).offset(10).limit(10)
 ```
 
-[Full explanation](https://chapters.firstdraft.com/chapters/770#offset)
+[Full explanation](https://chapters-foo.ourplatform.com/chapters/770#offset)
 
 ### .map_relation_to_array
 
@@ -206,7 +206,7 @@ people.last_name # undefined method for array; bad
 people.map_relation_to_array(:last_name) # => ["Betina", "Woods"]; good
 ```
 
-[Full explanation](https://chapters.firstdraft.com/chapters/770#map_relation_to_array)
+[Full explanation](https://chapters-foo.ourplatform.com/chapters/770#map_relation_to_array)
 
 ### .maximum
 
@@ -221,7 +221,7 @@ User.all.maximun(:age)
 
 -   Returns a value from an `ActiveRecord` column.
 
-[Full explanation](https://chapters.firstdraft.com/chapters/770#maximum)
+[Full explanation](https://chapters-foo.ourplatform.com/chapters/770#maximum)
 
 ### .minimum
 
@@ -236,7 +236,7 @@ Photo.all.minimum(:caption)
 
 -   Returns a value from an `ActiveRecord` column.
 
-[Full explanation](https://chapters.firstdraft.com/chapters/770#minimum)
+[Full explanation](https://chapters-foo.ourplatform.com/chapters/770#minimum)
 
 ### .sum
 
@@ -251,7 +251,7 @@ Call `.sum` on an `ActiveRecord_Relation` to find the sum of the values in a sin
 -   Returns an [`Integer`](#integer) or [`Float`](#integer) (or even a [`String`](#string)), depending on datatype of the column that was summed.
 -   The argument to `.sum` must be a `Symbol` that matches the name of a column in the table.
 
-[Full explanation](https://chapters.firstdraft.com/chapters/770#sum)
+[Full explanation](https://chapters-foo.ourplatform.com/chapters/770#sum)
 
 ### .average
 
@@ -266,7 +266,7 @@ Call `.average` on an `ActiveRecord_Relation` to find the mean of the values in 
 -   Returns an [`Integer`](#integer) or [`Float`](#float), depending on datatype of the column that was averaged.
 -   The argument to `.average` must be a `Symbol` that matches the name of a column in the table.
 
-[Full explanation](https://chapters.firstdraft.com/chapters/770#average)
+[Full explanation](https://chapters-foo.ourplatform.com/chapters/770#average)
 
 ## `ActiveRecord` (A single record)
 
@@ -276,7 +276,7 @@ You get a method for every column in the table; for example, if you have retriev
 
 This means that every `ActiveRecord` object will have methods `.id`, `.created_at`, and `.updated_at`, since every table has those columns.
 
-[Full explanation](https://chapters.firstdraft.com/chapters/770#attribute-getter-methods)
+[Full explanation](https://chapters-foo.ourplatform.com/chapters/770#attribute-getter-methods)
 
 ### Any other instance methods you define in the class
 
@@ -292,7 +292,7 @@ end
 
 You would then be able to call `.full_name` anywhere in the application that you wind up with an individual `Contact` object.
 
-[Full explanation](https://chapters.firstdraft.com/chapters/769#defining-instance-methods)
+[Full explanation](https://chapters-foo.ourplatform.com/chapters/769#defining-instance-methods)
 
 ## Association Helper Methods
 
@@ -478,7 +478,7 @@ When given a string literal as an argument, it adds that string to the original 
 
 This method returns a new [`String`](#string)
 
-[Full explanation](https://chapters.firstdraft.com/chapters/757#string-addition-aka-)
+[Full explanation](https://chapters-foo.ourplatform.com/chapters/757#string-addition-aka-)
 
 ### \* method
 
@@ -496,7 +496,7 @@ Returns `"YaYaYaYaYa"`
 
 Returns `""`
 
-[Full explanation](https://chapters.firstdraft.com/chapters/757#string-multiplication-aka-)
+[Full explanation](https://chapters-foo.ourplatform.com/chapters/757#string-multiplication-aka-)
 
 ### .upcase
 
@@ -512,7 +512,7 @@ Returns
 
 `"HELLO"`
 
-[Full explanation](https://chapters.firstdraft.com/chapters/757#upcase)
+[Full explanation](https://chapters-foo.ourplatform.com/chapters/757#upcase)
 
 ### .downcase
 
@@ -528,7 +528,7 @@ Returns
 
 `"hi"`
 
-[Full explanation](https://chapters.firstdraft.com/chapters/757#downcase)
+[Full explanation](https://chapters-foo.ourplatform.com/chapters/757#downcase)
 
 ### .swapcase
 
@@ -554,7 +554,7 @@ Returns
 
 `"Hi There"`
 
-[Full explanation](https://chapters.firstdraft.com/chapters/757#swapcase)
+[Full explanation](https://chapters-foo.ourplatform.com/chapters/757#swapcase)
 
 ### .reverse (String)
 
@@ -570,7 +570,7 @@ Returns
 
 `"desserts"`  
 
-[Full explanation](https://chapters.firstdraft.com/chapters/757#reversed)
+[Full explanation](https://chapters-foo.ourplatform.com/chapters/757#reversed)
 
 ### .length
 
@@ -586,7 +586,7 @@ Returns
 
 `12`
 
-[Full explanation](https://chapters.firstdraft.com/chapters/757#length)
+[Full explanation](https://chapters-foo.ourplatform.com/chapters/757#length)
 
 ### .chomp
 
@@ -642,7 +642,7 @@ p "Hi" + name
 
 `"Hi Clark"`
 
-[Full explanation](https://chapters.firstdraft.com/chapters/757#chomp)
+[Full explanation](https://chapters-foo.ourplatform.com/chapters/757#chomp)
 
 ### .gsub
 
@@ -676,7 +676,7 @@ Returns
 
 `"example@ruby.com"` 
 
-[Full explanation](https://chapters.firstdraft.com/chapters/757#gsub)
+[Full explanation](https://chapters-foo.ourplatform.com/chapters/757#gsub)
 
 ### .to_i (String)
 
@@ -715,7 +715,7 @@ Returns
 
 `"49"`
 
-[Full explanation](https://chapters.firstdraft.com/chapters/757#to_i)
+[Full explanation](https://chapters-foo.ourplatform.com/chapters/757#to_i)
 
 ### .strip
 
@@ -733,7 +733,7 @@ Returns
 
 `"hi there"`
 
-[Full explanation](https://chapters.firstdraft.com/chapters/757#strip)
+[Full explanation](https://chapters-foo.ourplatform.com/chapters/757#strip)
 
 ### .capitalize
 
@@ -751,7 +751,7 @@ Returns
 
 `"Capitalize"`
 
-[Full explanation](https://chapters.firstdraft.com/chapters/757#capitalize)
+[Full explanation](https://chapters-foo.ourplatform.com/chapters/757#capitalize)
 
 ### .split
 
@@ -781,7 +781,7 @@ Returns
 
 `["one", "two", "three"]`
 
-[Full explanation](https://chapters.firstdraft.com/chapters/757#split)
+[Full explanation](https://chapters-foo.ourplatform.com/chapters/757#split)
 
 ### .include?
 
@@ -805,7 +805,7 @@ Returns
 
 `false`
 
-[Full explanation](https://chapters.firstdraft.com/chapters/757#include)
+[Full explanation](https://chapters-foo.ourplatform.com/chapters/757#include)
 
 ## Integer
 
@@ -819,7 +819,7 @@ whole numbers
 `12 / 5 # => 2`  
 The `/` operator for integers only returns a whole number and omits the remainder.
 
-[Full explanation](https://chapters.firstdraft.com/chapters/760#-------math)
+[Full explanation](https://chapters-foo.ourplatform.com/chapters/760#-------math)
 
 ### `%` (modulus) operator
 
@@ -846,7 +846,7 @@ Returns an [`Integer`](#integer)
 `3 ** 2 # => 9`  
 `2 ** 3 # => 8`
 
-[Full explanation](https://chapters.firstdraft.com/chapters/760#-------math)
+[Full explanation](https://chapters-foo.ourplatform.com/chapters/760#-------math)
 
 ### .odd? and .even? method
 
@@ -882,7 +882,7 @@ Returns
 
 `false`
 
-[Full explanation](https://chapters.firstdraft.com/chapters/760#odd-and-even)
+[Full explanation](https://chapters-foo.ourplatform.com/chapters/760#odd-and-even)
 
 ### rand
 
@@ -906,7 +906,7 @@ rand(10)       # returns => 7
 rand((10..20)) # returns => 19
 ```
 
-[Full explanation](https://chapters.firstdraft.com/chapters/760#rand)
+[Full explanation](https://chapters-foo.ourplatform.com/chapters/760#rand)
 
 ### .to_s
 
@@ -942,7 +942,7 @@ p "My lucky number is " + lucky_number.to_s + "!"
 
 > "There are 7 pineapples"
 
-[Full explanation](https://chapters.firstdraft.com/chapters/760#to_s)
+[Full explanation](https://chapters-foo.ourplatform.com/chapters/760#to_s)
 
 ### .to_f
 
@@ -961,7 +961,7 @@ p number.to_f / 3 # Returns => 3.3333333333333335
 
 [More examples](#integer-and-float-division-examples)
 
-[Full explanation](https://chapters.firstdraft.com/chapters/760#to_f)
+[Full explanation](https://chapters-foo.ourplatform.com/chapters/760#to_f)
 
 ## Float
 
@@ -989,7 +989,7 @@ The `**`operator for Floats can additionally be used to calculate roots.
 8 ** (1/3.0) # => 2.0, since 8^(1/3) = cuberoot of 8  
 ```
 
-[Full explanation](https://chapters.firstdraft.com/chapters/759#------math)
+[Full explanation](https://chapters-foo.ourplatform.com/chapters/759#------math)
 
 ### .round
 
@@ -1006,7 +1006,7 @@ or
 `3.14159.round(3) # => 3.142`  
 `3.14139.round(3) # => 3.141`  
 
-[Full explanation](https://chapters.firstdraft.com/chapters/759#round)
+[Full explanation](https://chapters-foo.ourplatform.com/chapters/759#round)
 
 ### .to_i (Float)
 
@@ -1055,7 +1055,7 @@ Date.new(2001,2,3)        # => #<Date: 2001-02-03 ...>
 Date.new(2001,2,-1)       # => #<Date: 2001-02-28 ...>
 ```
 
-[Full explanation](https://chapters.firstdraft.com/chapters/768#datenew)
+[Full explanation](https://chapters-foo.ourplatform.com/chapters/768#datenew)
 
 ### Date.today
 
@@ -1067,7 +1067,7 @@ Returns a [`Date`](#date)
 
 `Date.today # => #<Date: 2019-04-16 ((2458590j,0s,0n),+0s,2299161j)>`  
 
-[Full explanation](https://chapters.firstdraft.com/chapters/768#datetoday)
+[Full explanation](https://chapters-foo.ourplatform.com/chapters/768#datetoday)
 
 ### Date.parse()
 
@@ -1081,7 +1081,7 @@ Date.parse("20010203")     # => #<Date: 2001-02-03 ...>
 Date.parse("3rd Feb 2001") # => #<Date: 2001-02-03 ...>
 ```
 
-[Full explanation](https://chapters.firstdraft.com/chapters/768#dateparse)
+[Full explanation](https://chapters-foo.ourplatform.com/chapters/768#dateparse)
 
 ### Subtraction
 
@@ -1093,7 +1093,7 @@ number_of_days = Date.today - Date.parse("July 4, 1776")
 number_of_days.to_i # => 88674
 ```
 
-[Full explanation](https://chapters.firstdraft.com/chapters/768#subtraction)
+[Full explanation](https://chapters-foo.ourplatform.com/chapters/768#subtraction)
 
 ### Date.mday
 
@@ -1106,7 +1106,7 @@ held_on = Date.new(2001,2,3)
 held_on.mday # => 3
 ```
 
-[Full explanation](https://chapters.firstdraft.com/chapters/768#day)
+[Full explanation](https://chapters-foo.ourplatform.com/chapters/768#day)
 
 ### Date.wday
 
@@ -1119,7 +1119,7 @@ held_on = Date.new(2001,2,3)
 held_on.wday # => 6
 ```
 
-[Full explanation](https://chapters.firstdraft.com/chapters/768#wday)
+[Full explanation](https://chapters-foo.ourplatform.com/chapters/768#wday)
 
 ### Days of the Week
 
@@ -1138,7 +1138,7 @@ date.sunday?    # => true if date is a Sunday.
 
 Returns a [`Boolean`](#boolean), `true` or `false`, if this given `Date` is a particular day of the week.
 
-[Full explanation](https://chapters.firstdraft.com/chapters/768#monday)
+[Full explanation](https://chapters-foo.ourplatform.com/chapters/768#monday)
 
 ## Array
 
@@ -1200,7 +1200,7 @@ cities[2]
 `cities.at(-3) # => "Chicago"`  
 `cities.at(-4) # => nil` 
 
-[Full explanation](https://chapters.firstdraft.com/chapters/758#at)
+[Full explanation](https://chapters-foo.ourplatform.com/chapters/758#at)
 
 ### .first and .last
 
@@ -1233,7 +1233,7 @@ nums.count(3) # => 2
 nums.count(2) # => 0
 ```
 
-[Full explanation](https://chapters.firstdraft.com/chapters/758#count)
+[Full explanation](https://chapters-foo.ourplatform.com/chapters/758#count)
 
 ### .reverse (Array)
 
@@ -1242,7 +1242,7 @@ nums.count(2) # => 0
 Returns a new [`Array`](#array)Array with the elements of the original Array but in the reversed order.  
 `nums.reverse # => [3, 23, 19, 1, 3, 8]`
 
-[Full explanation](https://chapters.firstdraft.com/chapters/758#reverse)
+[Full explanation](https://chapters-foo.ourplatform.com/chapters/758#reverse)
 
 ### .sort
 
@@ -1266,7 +1266,7 @@ Returns a new [`Array`](#array) with the elements of the original Array but with
 `nums.shuffle # => [3, 23, 8, 19, 1, 3]`  
 `nums.shuffle # => [19, 3, 1, 8, 3, 23]` 
 
-[Full explanation](https://chapters.firstdraft.com/chapters/758#shuffle)
+[Full explanation](https://chapters-foo.ourplatform.com/chapters/758#shuffle)
 
 ### .sample
 
@@ -1276,7 +1276,7 @@ Returns a random element from the array.
 `nums.sample # => 23`  
 `nums.sample # => 3`
 
-[Full explanation](https://chapters.firstdraft.com/chapters/758#sample)
+[Full explanation](https://chapters-foo.ourplatform.com/chapters/758#sample)
 
 ### .min and .max
 
@@ -1286,7 +1286,7 @@ Retrieve the elements of minimum and the maximum values in the array.
 `nums.min # => 1`  
 `nums.max # => 23`
 
-[Full explanation](https://chapters.firstdraft.com/chapters/758#min)
+[Full explanation](https://chapters-foo.ourplatform.com/chapters/758#min)
 
 ### .sum (Array)
 
@@ -1297,7 +1297,7 @@ Returns the sum of all the elements in the array.
 
 **Note** This method only works in the elements in the `Array` are _not_ a [`Hash`](#hash)
 
-[Full explanation](https://chapters.firstdraft.com/chapters/758#sum)
+[Full explanation](https://chapters-foo.ourplatform.com/chapters/758#sum)
 
 ## Hash
 
@@ -1308,7 +1308,7 @@ list of objects represented with curly brackets, {}. Unlike Arrays, each cell is
 Symbols are a sequence of characters and are used to to label something internally in the code. They are created by starting them off with a colon and follow the same naming conventions as variables, `:hello`.  
 `:hello.class # => Symbol`
 
-[Full explanation](https://chapters.firstdraft.com/chapters/767#a-brief-interlude-symbols)
+[Full explanation](https://chapters-foo.ourplatform.com/chapters/767#a-brief-interlude-symbols)
 
 ### Creating a Hash
 
@@ -1342,7 +1342,7 @@ or we can fill up a hash by typing in the hash literal
 1. Ruby represents each key/value pair by separating them with a `=>`, known as a "hash rocket."
 2. If the value associated with a key already exists when you try to `.store` something under it, its value will be replaced.
 
-[Full explanation](https://chapters.firstdraft.com/chapters/767#creating-hashes)
+[Full explanation](https://chapters-foo.ourplatform.com/chapters/767#creating-hashes)
 
 ### .fetch
 
@@ -1361,7 +1361,7 @@ If `.fetch` is given key that is not present in the hash, it will throw an error
 Fallback: pass in a second default argument that `.fetch` will return if the key is not present in the hash.  
 `person1.fetch(:middle_name, "None provided") # => "None provided"`
 
-[Full explanation](https://chapters.firstdraft.com/chapters/767#fetch)
+[Full explanation](https://chapters-foo.ourplatform.com/chapters/767#fetch)
 
 ## Conditionals
 
@@ -1393,7 +1393,7 @@ end
 
 **Don't forget the `end` keyword.**
 
-[Full explanation](https://chapters.firstdraft.com/chapters/763#conditionals)
+[Full explanation](https://chapters-foo.ourplatform.com/chapters/763#conditionals)
 
 ## Loops
 
@@ -1434,7 +1434,7 @@ end
 If the condition next to the `while` always evaluates to be "truthy," then the program will be stuck in a neverending loop, infamously known as an
 **infinite loop**.
 
-[Full explanation](https://chapters.firstdraft.com/chapters/764#while-conditionally-doing-something-multiple-times)
+[Full explanation](https://chapters-foo.ourplatform.com/chapters/764#while-conditionally-doing-something-multiple-times)
 
 ## Blocks
 
@@ -1458,7 +1458,7 @@ end
 ⇒ Integer
 ```
 
-The `.times` method takes a [`Block`](https://chapters.firstdraft.com/chapters/764#blocks) as an argument and will execute the code within that block the number of times specified by the integer. A [`Block`](https://chapters.firstdraft.com/chapters/764#blocks) of code is the code written in between the keywords `do` and `end`. This looping method returns an [`Integer`](#integer) of the number of times the loop ran.
+The `.times` method takes a [`Block`](https://chapters-foo.ourplatform.com/chapters/764#blocks) as an argument and will execute the code within that block the number of times specified by the integer. A [`Block`](https://chapters-foo.ourplatform.com/chapters/764#blocks) of code is the code written in between the keywords `do` and `end`. This looping method returns an [`Integer`](#integer) of the number of times the loop ran.
 
 ```ruby
 10.times do
@@ -1468,7 +1468,7 @@ end
 
 The above block of code will print "Hi" 10 times all on newlines. 
 
-To keep a track of the iteration number, `.times` can create a [block variable](https://chapters.firstdraft.com/chapters/764#block-variables) that starts of counting the iteration number starting at _zero_. After each execution of the code within the block, the block variable is incremented by 1.  
+To keep a track of the iteration number, `.times` can create a [block variable](https://chapters-foo.ourplatform.com/chapters/764#block-variables) that starts of counting the iteration number starting at _zero_. After each execution of the code within the block, the block variable is incremented by 1.  
 
 ```ruby
 10.times do |counter|
@@ -1478,7 +1478,7 @@ end
 
 The above block of code will print the numbers 0 to 9 all on newlines.
 
-[Full explanation](https://chapters.firstdraft.com/chapters/764#blocks)
+[Full explanation](https://chapters-foo.ourplatform.com/chapters/764#blocks)
 
 #### Other methods
 
@@ -1589,7 +1589,7 @@ end
 
 The block variable `city` holds the value of the elements in the array `cities`. It starts with the first element `"Chicago"` and then changes with each interation, holding the value of the next element (`"LA"`) in the array and so on.
 
-[Full explanation](https://chapters.firstdraft.com/chapters/765#arrays-each-method)
+[Full explanation](https://chapters-foo.ourplatform.com/chapters/765#arrays-each-method)
 
 ### .each_with_index
 
@@ -1620,4 +1620,4 @@ end
 **_Note:_**  
 Variables created as a block variables can only be used within that block (between `do` and `end`). Using that variable outside that block will throw an error.
 
-[Full explanation](https://chapters.firstdraft.com/chapters/765#each_with_index)
+[Full explanation](https://chapters-foo.ourplatform.com/chapters/765#each_with_index)

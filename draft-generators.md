@@ -42,7 +42,7 @@ rails generate draft:resource photo image:string caption:text owner_id:integer
 - Separate column names and datatypes with colons (NO SPACES).
 - Separate name:datatype pairs with spaces (NO COMMAS).
 
-In other words, the format of the command is exactly the same as when you were [generating only a model and table](https://chapters.firstdraft.com/chapters/770#the-quick-way-to-create-a-table){:target="_blank"}, but `draft:model` is replaced with `draft:resource`.
+In other words, the format of the command is exactly the same as when you were [generating only a model and table](https://chapters-foo.ourplatform.com/chapters/770#the-quick-way-to-create-a-table){:target="_blank"}, but `draft:model` is replaced with `draft:resource`.
 
 > Note: `rails g` is short for `rails generate`, like  `c` is for `console` and `s` is for `server`.
 
@@ -81,7 +81,7 @@ Whew! What a time saver. However, it only saves time if you are comfortable with
 
 ### Go back to an earlier git commit
 
-You've been making lots of git commits, right? If so, you can [jump back to an earlier commit and try again](https://chapters.firstdraft.com/chapters/839#jumping-back-in-time).
+You've been making lots of git commits, right? If so, you can [jump back to an earlier commit and try again](https://chapters-foo.ourplatform.com/chapters/839#jumping-back-in-time).
 
 Alternatively....
 
@@ -113,6 +113,6 @@ With great power comes great responsibility. If you use a generator to automate 
 
 The generated code will _never_ be exactly what you need directly out-of-the-box. You still have to remember all of your basics, and write additional RCAVs as needed. Some of the automatically generated RCAVs might be security holes that you definitely don't want, so you should delete them.
 
-If you decide, as you certainly will at some point in the future, to [add a new column](https://chapters.firstdraft.com/chapters/770#adding-or-removing-columns-from-your-table), then you'll have to go in and edit all of the relevant files (forms, processing actions) by hand. Or create new RCAVs entirely.
+If you decide, as you certainly will at some point in the future, to [add a new column](https://chapters-foo.ourplatform.com/chapters/770#adding-or-removing-columns-from-your-table), then you'll have to go in and edit all of the relevant files (forms, processing actions) by hand. Or create new RCAVs entirely.
 
 I wrote the generators for you to speed you up, serve as a starting point for you, and be an example for you to learn from. But **you can't be afraid to change the generated code**. Strive to understand every line that it wrote for you, so that you can modify it, delete it, and otherwise customize it to your own needs.

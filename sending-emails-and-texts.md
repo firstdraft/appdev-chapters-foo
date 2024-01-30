@@ -66,7 +66,7 @@ mg_client.send_message(mg_sending_domain, email_info)
 
 Voilà! Check your email.
 
- - **Important:** before you push your code to GitHub, please be sure to [store your Mailgun credentials securely](https://chapters.firstdraft.com/chapters/792){:target="_blank"}, and replace the strings containing your API credentials with something like `ENV.fetch("MAILGUN_API_KEY")`.
+ - **Important:** before you push your code to GitHub, please be sure to [store your Mailgun credentials securely](https://chapters-foo.ourplatform.com/chapters/792){:target="_blank"}, and replace the strings containing your API credentials with something like `ENV.fetch("MAILGUN_API_KEY")`.
 
 ## Example of how to send an SMS with the Twilio gem
 
@@ -136,7 +136,7 @@ Voilà! Check your phone.
 
  - Sign up for your own Twilio account — [if use this referral link you'll $10 in credit](https://www.twilio.com/referral/86ykDX), and so will our class account.
  - [Twilio Ruby Quickstarts](https://www.twilio.com/docs/quickstart/ruby)
- - **Important:** before you push your code to GitHub, please be sure to [store your Twilio credentials securely](https://chapters.firstdraft.com/chapters/792){:target="_blank"}, and replace the strings containing your API credentials with something like `ENV.fetch("TWILIO_ACCOUNT_SID")`.
+ - **Important:** before you push your code to GitHub, please be sure to [store your Twilio credentials securely](https://chapters-foo.ourplatform.com/chapters/792){:target="_blank"}, and replace the strings containing your API credentials with something like `ENV.fetch("TWILIO_ACCOUNT_SID")`.
 
 ---
 

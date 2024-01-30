@@ -197,7 +197,7 @@ Imagine you had a hash of hashes that had all of the signs and horoscopes within
 
 Fortunately, you do. I've created a class called `Zodiac`, and I gave it class-level method called `list` which returns that exact hash above[^could_you].
 
-[^could_you]: Can you define a class and a class-level method like this? You ought to be able to, with what you've learned about [Our own classes](https://chapters.firstdraft.com/chapters/769) and [Hashes](https://chapters.firstdraft.com/chapters/767).
+[^could_you]: Can you define a class and a class-level method like this? You ought to be able to, with what you've learned about [Our own classes](https://chapters-foo.ourplatform.com/chapters/769) and [Hashes](https://chapters-foo.ourplatform.com/chapters/767).
 
 Give the `Zodiac` class a try. For example, in the `FireController#ram` action, you can replace:
 

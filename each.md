@@ -11,7 +11,7 @@ display the element to the user with some formatting around it.
 
 ## Iterating over arrays with Integer's times method
 
-Try transforming the words in an Array using what you've learned so far about [loops](https://chapters.firstdraft.com/chapters/764){:target="_blank"}:
+Try transforming the words in an Array using what you've learned so far about [loops](https://chapters-foo.ourplatform.com/chapters/764){:target="_blank"}:
 
 Write a program that, given a list of words from the user, would take each word and print it in three forms:
 

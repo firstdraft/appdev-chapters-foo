@@ -11,7 +11,7 @@ Ruby calls decimal numbers `Float`s. To create a `Float` rather than an `Integer
 
 ### + - * / ** (math)
 
-The math methods work mostly like you'd expect, and similarly to [the ones for integers](https://chapters.firstdraft.com/chapters/760#-------math){:target="_blank"}.
+The math methods work mostly like you'd expect, and similarly to [the ones for integers](https://chapters-foo.ourplatform.com/chapters/760#-------math){:target="_blank"}.
 
 The main difference to keep in mind is with `/`. Division with floats works the way that we're used to — it returns fractional results, as a `Float`:
 
@@ -63,4 +63,4 @@ p rand
 
 ## Even more Float methods
 
-Looking for even more Float methods? See [here](https://chapters.firstdraft.com/chapters/853){:target="_blank"} for some additional methods added by the `activesupport` gem (automatically available within Ruby on Rails).
+Looking for even more Float methods? See [here](https://chapters-foo.ourplatform.com/chapters/853){:target="_blank"} for some additional methods added by the `activesupport` gem (automatically available within Ruby on Rails).

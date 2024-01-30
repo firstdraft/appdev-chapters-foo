@@ -123,6 +123,6 @@ Try not to use the DevTools until you're almost done.
 
 Here are some notes about Classbook that may come in handy:
 
-[https://chapters.firstdraft.com/chapters/794](https://chapters.firstdraft.com/chapters/794)
+[https://chapters-foo.ourplatform.com/chapters/794](https://chapters-foo.ourplatform.com/chapters/794)
 
 **Ask lots of questions as you work!** That's the point, remember?

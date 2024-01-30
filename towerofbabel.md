@@ -18,5 +18,5 @@ Other than that, you're on your own! Build to match the target. You can `rails g
 
 ---
 
-Okay, have you grappled with it for a while? Have questions / places in your mind for knowledge to fit? Ready for some hints? [Then click here](https://chapters.firstdraft.com/chapters/840).
+Okay, have you grappled with it for a while? Have questions / places in your mind for knowledge to fit? Ready for some hints? [Then click here](https://chapters-foo.ourplatform.com/chapters/840).
 

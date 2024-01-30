@@ -86,7 +86,7 @@ Next, let's familiarize ourselves with some of the `String` class's methods. For
 
 ### String addition, a.k.a. +
 
-We've already met the `.concat` method. `.concat` can accept an integer as an argument, which it interprets as an [ASCII code](https://chapters.firstdraft.com/chapters/757#ascii-codes), translates into a single character, and adds to the original string:
+We've already met the `.concat` method. `.concat` can accept an integer as an argument, which it interprets as an [ASCII code](https://chapters-foo.ourplatform.com/chapters/757#ascii-codes), translates into a single character, and adds to the original string:
 
 ```ruby
 "hi".concat(33) # => "hi!"
@@ -112,13 +112,13 @@ But here's where it gets interesting; Ruby has another bit of nice _syntactic su
 "hi" +(" there") # => "hi there"
 ```
 
-Wild! And, as we learned earlier when we were [introduced](https://chapters.firstdraft.com/chapters/755#make-the-invisible-visible){:target="_blank"} to the `p` method, Ruby also allows you to omit the parentheses around arguments if you want to; so this can be further shortened to:
+Wild! And, as we learned earlier when we were [introduced](https://chapters-foo.ourplatform.com/chapters/755#make-the-invisible-visible){:target="_blank"} to the `p` method, Ruby also allows you to omit the parentheses around arguments if you want to; so this can be further shortened to:
 
 ```ruby
 "hi" + " there" # => "hi there"
 ```
 
-Now this is really starting to look familiar! It's a lot like the calculator language, actually. [Developer happiness](https://chapters.firstdraft.com/chapters/755#developer-happiness){:target="_blank"}, indeed.
+Now this is really starting to look familiar! It's a lot like the calculator language, actually. [Developer happiness](https://chapters-foo.ourplatform.com/chapters/755#developer-happiness){:target="_blank"}, indeed.
 
 ```ruby
 a = "Hello"
@@ -152,13 +152,13 @@ The order matters, though. See what happens when you try:
 3 * "Hello"
 ```
 
-Read The Error Message ([RTEM](https://chapters.firstdraft.com/chapters/754#seriously-please-read-the-error-message){:target="_blank"})!
+Read The Error Message ([RTEM](https://chapters-foo.ourplatform.com/chapters/754#seriously-please-read-the-error-message){:target="_blank"})!
 
 Does this make sense? `"Hello" * 3` is calling the `String` method `*` with an argument of `3`, which kinda makes sense (add `"Hello"` to itself `3` times).
 
 But `3 * "Hello"` is calling the `Integer` method `*` with an argument of `"Hello"`, which doesn't make much sense (what would it mean to add `3` to itself `"Hello"` times?).
 
-Thus, we can see why the `String` version of `*` and the `Integer` version of `*` both need an integer argument. Again, [the bottom line](https://chapters.firstdraft.com/chapters/754#the-bottom-line){:target="_blank"} is — at all times as you are writing Ruby, you should be thinking: "What **class** is this object? What **methods** does _this_ class have available?" Even when there's some syntactic sugar making things _look_ unconventional, don't forget your basics! It's still `noun.verb` under the hood.
+Thus, we can see why the `String` version of `*` and the `Integer` version of `*` both need an integer argument. Again, [the bottom line](https://chapters-foo.ourplatform.com/chapters/754#the-bottom-line){:target="_blank"} is — at all times as you are writing Ruby, you should be thinking: "What **class** is this object? What **methods** does _this_ class have available?" Even when there's some syntactic sugar making things _look_ unconventional, don't forget your basics! It's still `noun.verb` under the hood.
 
 ### upcase
 
@@ -302,7 +302,7 @@ p "beginning".capitalize
 
 ### split
 
-This transforms the `String` into an `Array` (a list), which we'll [read more about later](https://chapters.firstdraft.com/chapters/758).
+This transforms the `String` into an `Array` (a list), which we'll [read more about later](https://chapters-foo.ourplatform.com/chapters/758).
 
 If you provide no argument, the string is split upon whitespace, which is handy for e.g. turning a sentence into a list of words:
 
@@ -411,7 +411,7 @@ Most of the time, we'll stick with `p`, since it provides more details while deb
 
 ### gets.chomp
 
-We almost never want to keep the `\n` that results from the <kbd>return</kbd> keypress that submits the user's input. Fortunately, [the handy `.chomp` method](https://chapters.firstdraft.com/chapters/757#chomp){:target="_blank"} does exactly what we need — if there's a `\n` at the end of a string, it will remove it; if there isn't, it does nothing. So, in practice, when we call `gets` we almost always tack a `.chomp` on to it immediately. Try modifying the program to:
+We almost never want to keep the `\n` that results from the <kbd>return</kbd> keypress that submits the user's input. Fortunately, [the handy `.chomp` method](https://chapters-foo.ourplatform.com/chapters/757#chomp){:target="_blank"} does exactly what we need — if there's a `\n` at the end of a string, it will remove it; if there isn't, it does nothing. So, in practice, when we call `gets` we almost always tack a `.chomp` on to it immediately. Try modifying the program to:
 
 ```ruby
 their_name = gets.chomp
@@ -421,4 +421,4 @@ and see how it's different.
 
 ## Conclusion
 
-That's about all we'll need to know about strings to do most anything related to web applications! Next, we'll take a look at numbers, [starting with `Integer`](https://chapters.firstdraft.com/chapters/760).
+That's about all we'll need to know about strings to do most anything related to web applications! Next, we'll take a look at numbers, [starting with `Integer`](https://chapters-foo.ourplatform.com/chapters/760).

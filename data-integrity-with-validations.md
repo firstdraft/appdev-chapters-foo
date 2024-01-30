@@ -219,4 +219,4 @@ You can read a lot more about validations at the official Rails Guides:
 
 [https://guides.rubyonrails.org/active_record_validations.html](https://guides.rubyonrails.org/active_record_validations.html)
 
-But don't forget that the official Rails Guides use a lot of optional Ruby syntaxes to write more concise code than we like to in AppDev. Review [the Chapter on Optional Ruby Syntaxes](https://chapters.firstdraft.com/chapters/787){:target="_blank"} on it if the code examples seem confusing.
+But don't forget that the official Rails Guides use a lot of optional Ruby syntaxes to write more concise code than we like to in AppDev. Review [the Chapter on Optional Ruby Syntaxes](https://chapters-foo.ourplatform.com/chapters/787){:target="_blank"} on it if the code examples seem confusing.

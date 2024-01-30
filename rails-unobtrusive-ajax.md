@@ -2,7 +2,7 @@
 
 ## Objective
 
-Now that we've learned [a minimal amount of JavaScript](https://chapters.firstdraft.com/chapters/892){:target="_blank"}, let's apply our skills to our Rails applications to make them _slick_.
+Now that we've learned [a minimal amount of JavaScript](https://chapters-foo.ourplatform.com/chapters/892){:target="_blank"}, let's apply our skills to our Rails applications to make them _slick_.
 
 These notes are a companion to the [pg-ajax-1 project](https://github.com/appdev-projects/pg-ajax-1){:target="_blank"}.
 
@@ -251,7 +251,7 @@ And make sure you wired everything up correctly. Once you've verified that `howd
 console.log("<%= @comment.body %>")
 ```
 
-Once you've proven that you're sending the data back, think about what interaction you'd like to use to actually update the client. [Review my list of frequently used jQuery methods](https://chapters.firstdraft.com/chapters/892#frequently-used-jquery-methods){:target="_blank"} and see if any might come in handy.
+Once you've proven that you're sending the data back, think about what interaction you'd like to use to actually update the client. [Review my list of frequently used jQuery methods](https://chapters-foo.ourplatform.com/chapters/892#frequently-used-jquery-methods){:target="_blank"} and see if any might come in handy.
 
 At this point, it's really up to you to use your JavaScript skills to craft a JavaScript response that fits your application's context. But, let me show you a pattern that has served me well in many cases.
 

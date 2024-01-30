@@ -175,4 +175,4 @@ Ultimately, define the following instance methods to encapsulate the logic you d
  - `User#feed` should return an array containing the records of the photos posted by the people the user is following.
  - `User#discover` should return an array containing the records of the photos that are liked by the people the user is following.
 
-[Run `rails grade`](https://chapters.firstdraft.com/chapters/777) when you're ready to see how you're doing.
+[Run `rails grade`](https://chapters-foo.ourplatform.com/chapters/777) when you're ready to see how you're doing.

@@ -4,7 +4,7 @@
 
 Assuming that we have a database and a table called "contacts" in it (we'll discuss how to do that in a moment), we would normally have to write Structured Query Language to interact with it.
 
-Instead, we can define a class, e.g. `Contact`, and [inherit](https://chapters.firstdraft.com/chapters/769#inheritance){:target="_blank"} from `ApplicationRecord`:
+Instead, we can define a class, e.g. `Contact`, and [inherit](https://chapters-foo.ourplatform.com/chapters/769#inheritance){:target="_blank"} from `ApplicationRecord`:
 
 ```ruby
 class Contact < ApplicationRecord
@@ -108,7 +108,7 @@ A crucial thing to remember: when you are talking to the **whole table**, you ar
 
 Like any Ruby class[^literal_shorthand] we instantiate a new, blank object with the `.new` method:
 
-[^literal_shorthand]: Remember Array, Hash, or even String, before we got to their [literal](https://chapters.firstdraft.com/chapters/758#array-literals) [shorthand](https://chapters.firstdraft.com/chapters/767#hash-literals) [syntaxes](https://chapters.firstdraft.com/chapters/757#string-literals)? We always started with `.new`, and then built up from scratch.
+[^literal_shorthand]: Remember Array, Hash, or even String, before we got to their [literal](https://chapters-foo.ourplatform.com/chapters/758#array-literals) [shorthand](https://chapters-foo.ourplatform.com/chapters/767#hash-literals) [syntaxes](https://chapters-foo.ourplatform.com/chapters/757#string-literals)? We always started with `.new`, and then built up from scratch.
 
 ```ruby
 c = Contact.new
